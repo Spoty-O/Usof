@@ -1,0 +1,98 @@
+header .header_links:active,
+header .header_links:hover,
+header .header_links {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-right: 16px;
+}
+
+header .header_hover:hover {
+    color: rgb(190, 191, 193);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    background-color: rgb(36, 41, 47);
+    width: 100%;
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 1.5;
+    font-family: 'Spectral SC', serif;
+}
+
+header > div {
+    display: flex;
+}
+
+header .header_div {
+    display: flex;
+    align-items: center;
+    margin: 0 30px;
+}
+
+header .header_div img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+header .logo>* {
+    margin-right: 16px;
+}
+
+header .profile>* {
+    cursor: pointer;
+    margin-left: 16px;
+}
+
+header .dropdown {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    color: rgb(82, 86, 91);
+    gap: 10px 0;
+    top: 70px;
+    z-index: 1;
+    right: 25px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(208, 215, 222);
+    border-radius: 8px;
+    font-size: 20px;
+    padding: 8px 16px;
+}
+
+header .dropdown .triangle {
+    position: absolute;
+    top: -23px;
+    right: 4px;
+    width: 0;
+    margin-right: auto;
+    margin-left: auto;
+    border: 12px solid transparent;
+    border-bottom-color: rgb(255, 255, 255);
+}
+
+header .dropdown input {
+    height: 25px;
+    border: 1px solid rgb(208, 215, 222);
+    border-radius: 8px;
+}
+
+header .dropdown button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    height: 25px;
+    border: 1px solid rgb(208, 215, 222);
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Spectral SC', serif;
+}

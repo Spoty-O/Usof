@@ -1,0 +1,47 @@
+.page_categor_container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.page_categor_container .create_category_form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px 0;
+    padding: 30px;
+    border: 3px solid rgb(208, 215, 222);
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Spectral SC', serif;
+    justify-content: center;
+    align-items: center;
+}
+
+.create_category_form input {
+    border: 3px solid rgb(208, 215, 222);
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Spectral SC', serif;
+}
+
+.create_category_form textarea {
+    border: 3px solid rgb(208, 215, 222);
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Spectral SC', serif;
+}
+
+.create_category_form button {
+    border: 3px solid rgb(208, 215, 222);
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Spectral SC', serif;
+    cursor: pointer;
+}
+
+.page_categor_container > div {
+    width: 70%;
+}

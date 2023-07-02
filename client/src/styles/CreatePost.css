@@ -1,0 +1,47 @@
+.create_page {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.create_post {
+    display: flex;
+    flex-direction: column;
+    gap: 30px 0;
+    padding: 30px;
+    border: 3px solid rgb(208, 215, 222);
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Spectral SC', serif;
+    justify-content: center;
+    align-items: center;
+}
+
+.create_page input {
+    border: 3px solid rgb(208, 215, 222);
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Spectral SC', serif;
+}
+
+.create_page textarea {
+    border: 3px solid rgb(208, 215, 222);
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Spectral SC', serif;
+}
+
+.create_page button {
+    border: 3px solid rgb(208, 215, 222);
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Spectral SC', serif;
+    cursor: pointer;
+}
+
+.create_page > div {
+    width: 70%;
+}

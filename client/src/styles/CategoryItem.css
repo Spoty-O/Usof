@@ -1,0 +1,26 @@
+.category {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 5px;
+    align-items: center;
+    color: hsl(205,46%,32%);
+    background-color: hsl(205,46%,92%);
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Spectral SC', serif;
+    transition: all 0.5s ease-in-out;
+}
+
+.category > span:first-child{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid hsl(205,46%,32%);
+}
+
+.category:hover {
+    background-color: hsl(205,53%,88%);
+}
